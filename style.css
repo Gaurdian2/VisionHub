@@ -347,6 +347,34 @@ border-radius: 16px;
     font-size: 16px;
     color: #888888;
 }
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+  justify-content: center;
+}
+
+.social-tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.social-tag:hover {
+  border-color: #999;
+  transform: translateY(-2px);
+}
+
+.social-tag svg {
+  width: 15px;
+  height: 15px;
+  fill: #555;
+}
 /*Product Portfolio . (Roadmap planner , progress tracker , project wiki )*/
 .product{
     padding: 0 60px;
@@ -394,6 +422,24 @@ border-radius: 14px;
     width: 100px;
     margin-top: 10px;
 }
+.Product_Button{
+  font-size: 18px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: auto;
+    background: #ffffff;
+    color: #0d0d0d;
+}
+.Product_Button:hover{
+    transform: translateY(-2px);
+    transition: 0.2s ease-in-out;
+    background: #e0e0e0;
+}
+
 /* Services page */
 .Services_h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
