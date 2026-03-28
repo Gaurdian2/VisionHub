@@ -11,11 +11,10 @@ a {
 }
 
 body {
-    margin: 0px;
     min-height: 100vh;
     background: #0d0d0d;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
+color: white;
 }
 
 main {
