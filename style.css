@@ -172,18 +172,20 @@ input {
     color: #e0e0e0;
     border: 1px solid #333;
 }
-.Forgot {
+.Forgot  {
     padding-top: 6px;
     padding-bottom: 6px;
     text-align: left;
     font-size: 17px;
-    color: #888;
+}
+.Forgot a{
+    color: gray;
 }
 
 #submit {
     width: 130px;
     padding: 8px;
-    position: relative;
+   
     border-radius: 60px;
     font-size: 15px;
     font-weight: bold;
@@ -191,10 +193,12 @@ input {
     background: #ffffff;
     color: #0d0d0d;
     border: none;
+    
 }
 #submit:hover{
     transform: translateY(-2px);
-    transition: 0.2sec ease-in-out;
+    transition: 0.3sec ease;
+       background-color: yellow;
 }
 
 .Welcome {
@@ -202,7 +206,7 @@ input {
     color: #ffffff;
 }
 
-.Register {
+.Register a{
     font-size: 16px;
     color: #888;
 }
@@ -374,12 +378,11 @@ border-radius: 16px;
   height: 15px;
   fill: #555;
 }
-/*Product Portfolio . (Roadmap planner , progress tracker , project wiki )*/
+/*Product Portfolio . */
 .product{
     padding: 0 60px;
     display: flex;
     gap: 50px;
- justify-content: space-between;
  align-items: center;
 border-bottom: 1px solid #0d0d0d;
 
@@ -388,14 +391,11 @@ border-bottom: 1px solid #0d0d0d;
     padding: 0 60px;
     display: flex;
     gap: 50px;
- justify-content: space-between;
  align-items: center;
-border-bottom: 1px solid #0d0d0d
+border-bottom: 1px solid #0d0d0d;
+  flex-direction: row-reverse;
 }
 
-.product_right{
-    flex-direction: row-reverse;
-}
 .head{
 
     font-family: 'Archivo Black', sans-serif;
@@ -403,7 +403,6 @@ border-bottom: 1px solid #0d0d0d
 .note{
  font-family:monospace;  
      font-size: 14px;
-     flex: 1;
 }
 .Image_portfolio{
     width: 100%; 
@@ -460,8 +459,7 @@ border-radius: 14px;
     display: flex;
     flex-direction: column;
     gap: 10px ;
-    border:1px solid;
-    border-color: #222;
+    border:1px solid #222;
     border-radius: 12px;
       width: 300px;
    height: 100%;
@@ -479,7 +477,8 @@ border-radius: 14px;
     padding: 5px 16px;
     border-radius: 20px;
     width: fit-content;
-   margin-left: 5rem;
+     margin-left: 5rem;   
+     /*1 rem = 16px    */
 }
 .icon{
     display: flex;
